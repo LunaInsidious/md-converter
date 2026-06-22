@@ -1,0 +1,8 @@
+node_modules/
+
+# 生成物（サンプルは追跡したい場合は個別に除外）
+*.html
+*.pdf
+*.md
+!sample.md
+!README.md

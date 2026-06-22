@@ -1,0 +1,3 @@
+# Puppeteer の postinstall（Chromium ダウンロード）を許可する
+onlyBuiltDependencies:
+  - puppeteer

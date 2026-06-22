@@ -1,0 +1,20 @@
+{
+  "name": "md-converter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Markdown を HTML / PDF にコマンド一発で変換するツール",
+  "bin": {
+    "md-convert": "./convert.js"
+  },
+  "scripts": {
+    "convert": "node convert.js"
+  },
+  "packageManager": "pnpm@11.6.0",
+  "dependencies": {
+    "highlight.js": "^11.10.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "puppeteer": "^24.15.0"
+  }
+}
