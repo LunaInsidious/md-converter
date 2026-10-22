@@ -13,7 +13,7 @@
   "packageManager": "pnpm@11.6.0",
   "dependencies": {
     "highlight.js": "^11.10.0",
-    "markdown-it": "^14.1.0",
+    "markdown-it": "^14.3.3",
     "markdown-it-anchor": "^9.2.0",
     "puppeteer": "^24.15.0"
   }
